@@ -1,0 +1,22 @@
+<nav ngbNav #nav="ngbNav" class="nav-tabs">
+    <ng-container ngbNavItem>
+        <a ngbNavLink routerLink="/main">HOME</a>
+    </ng-container>
+    <ng-container ngbNavItem>
+        <a ngbNavLink routerLink="/accordin">Accordin</a>
+    </ng-container>
+    <ng-container ngbNavItem>
+        <a ngbNavLink routerLink="/carousel">Carousel</a>
+    </ng-container>
+    <ng-container ngbNavItem>
+        <a ngbNavLink routerLink="/model">Modal</a>
+    </ng-container>
+    <ng-container ngbNavItem>
+        <a ngbNavLink routerLink="/popover">Popover</a>
+    </ng-container>
+    <ng-container ngbNavItem>
+        <a ngbNavLink routerLink="/typehead">Typehead</a>
+    </ng-container>
+</nav>
+
+<div [ngbNavOutlet]="nav" class="mt-2"></div>
